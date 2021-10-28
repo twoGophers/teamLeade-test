@@ -45,6 +45,7 @@
     }
     .composition__product-images {
         height: 30vh;
+        width: 40%;
     }
     .promo-down__two {
         display: none;

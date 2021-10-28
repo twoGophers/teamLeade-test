@@ -121,6 +121,7 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    background: rgb(221, 221, 221);
 }
 
 .propduct__btn-click:hover {
