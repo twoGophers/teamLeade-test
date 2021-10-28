@@ -68,6 +68,12 @@
     .product__haracter {
         flex-direction: column;
     }
+    .composition__product-images {
+        width: 50%;
+    }
+    .product__haracter img {
+        width: 50%;
+    }
     .product__haracter-images {
         margin-top: 10%;
         display: flex;
