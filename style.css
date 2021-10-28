@@ -25,6 +25,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    background: greenyellow;
 }
 .wrapper {
     width: 100%;
@@ -121,14 +122,17 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+}
+
+.propduct__btn-click:hover,
+ .btnInput:hover{
+    transition: 0.1s;
     background: rgb(221, 221, 221);
 }
 
-.propduct__btn-click:hover {
-    background: rgb(221, 221, 221);
-}
-
-.propduct__btn-click:active {
+.propduct__btn-click:active,
+ .btnInput:active{
     transition: 0.1s;
     background: rgb(187, 187, 187);
 }
